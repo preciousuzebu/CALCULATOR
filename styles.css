@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0 , 0.3);
+    background: #22252D;
+    border-radius: 12px;
+    line-height: 2em;
+  
+
+}
+
+form input{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color:#ffff;
+    background: #000;
+    text-align: right;
+    pointer-events: none;
+    font-size: 65px;
+    line-height: 5em;
+  
+
+}
+
+.buttons{
+    display: ruby;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;    
+}
+
+button{
+width: 60px;
+height: 52px;
+margin: 5px 0;
+border: 1px solid #000;
+flex: 0 0 22%;
+font-size: 25px;
+font-weight: 700;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.btn-red{
+    background-color:#A9A9A9;
+    color: #fff;
+}
+
+.btn-click{
+    width: 100px;
+}
+
+.btn-grey{
+    background-color: #36454F;
+    color: #fff;
+    
+}
+
+.btn-equal{
+    background-color: rgb(245, 146, 62);
+        color: #ffff
+}
+
+
+.btn-blue{
+background-color: rgb(245, 146, 62);
+    color: #fff;
+}
+.btn-del{
+background-color: #A9A9A9;
+color: #fff;
+}
+
+.btn-num{
+  width: 125px;
+color:#36454F;
+ 
+}
+
+.btn-clear{
+    background: #A9A9A9;
+    color: #fff;
+}
